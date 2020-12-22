@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int numero;
+    printf("Digite um numero:");
+    scanf("%i",&numero);
+    printf("\n-Quadrado = %i",numero * numero);
+    printf("\n-Quadrado = %i",numero * numero * numero);
+    return 0;
+}
